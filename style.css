@@ -1,5 +1,32 @@
-.I-need-space {
-    margin-right: 20px;
-            display: inline-block;
-            margin-right: 20px;
-        }
+/* register undertale font*/
+@font-face {
+  font-family: 'Undertale';
+  src: url(./fonts/undertale-font.ttf) format('truetype');
+}
+/*set undertale font*/
+h1 {
+  font-family: 'Undertale', sans-serif;
+  font-size: 70px;
+  font-weight: bold
+
+}
+/*register P tag font*/
+@font-face {
+  font-family: 'PixelFont';
+  src: url(./fonts/p\ font.ttf) format('truetype');
+}
+/*set p tag font*/
+p {
+  font-family: 'PixelFont', sans-serif;
+  font-size: 20px;
+  color: #333;
+}
+/*set background color*/
+body {
+    background-color: #efd762;
+}
+
+.tetris {
+    float: right;
+    margin-left: 0px; /* optional spacing */
+}
