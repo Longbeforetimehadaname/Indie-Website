@@ -10,7 +10,8 @@
 h1 {
   font-family: 'PixelFont', sans-serif;
   font-size: 70px;
-  font-weight: bold
+  font-weight: bold;
+  color: #3d405b
 
 }
 /*register P tag font*/
@@ -22,19 +23,19 @@ h1 {
 p {
   font-family: 'PixelFont', sans-serif;
   font-size: 20px;
-  color: #333;
+  color: #3d405b;
 }
 
 a {
   font-family: 'PixelFont', sans-serif;
   font-size: 20px;
-  color: #333;
+  color: #3d405b;
 }
 
 
 /*set background color*/
 body {
-    background-color: #ffffff;
+    background-color: #81b29a;
 }
 
 .tetris {
