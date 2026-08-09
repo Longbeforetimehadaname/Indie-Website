@@ -14,6 +14,18 @@ h1 {
   color: #3d405b
 
 }
+
+h2 {
+  font-family: 'PixelFont', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #3d405b
+
+}
+
+
+
+
 /*register P tag font*/
 @font-face {
   font-family: 'PixelFont';
@@ -38,6 +50,7 @@ body {
     background-color: #81b29a;
 }
 
+
 .tetris {
   float: right;
   margin-left: 0px; 
@@ -61,5 +74,65 @@ body {
   right: 0; 
   width: 20px; 
   height: 20px;
+
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px; 
+}
+
+.content p {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.tuff {
+    max-width: 480px;
+    height: auto;
+    margin-left: 20px; 
+    margin-bottom: 20px;
+}
+
+.main_whoami {
+    background-color: #f4f1de;
+    padding: 20px; }
+
+.gomid {
+
+
+  text-align: center;
+}
+
+
+.robot1 {
+  background-color: #f4f1de ;
+  text-align: center ;
+
+
+
+}
+
+.diyscripts {
+  background-color: #f4f1de ;
+  text-align: center ;
+  
+
+}
+
+.coloredBg {
+  background-color: #f4f1de;
+}
+
+
+.owngames {
+
+  text-align: center ;
+  background-color: #f4f1de;
+
+
 
 }
